@@ -1,0 +1,31 @@
+---
+title: "Analyse de survie"
+---
+
+## Contenu
+
+- Extensions du modèle de Cox
+- Risques non proportionnels
+- [Exercice 4.2](/exercices/04-exercice.html#exercice-4.2)
+
+## Lecture
+
+
+- {{< fa book >}} [Chapitre sur l'analyse de survie](https://lbelzile.github.io/math60602/survie.html), Sections 6 et 7
+
+## Diapositives 
+
+- {{< fa file >}} [Analyse de survie](/diapos/MATH60602-diapos9.pdf)
+- {{< fa code >}} [Code](/code/MATH60602-diapos9.R)
+
+<!--
+<iframe width="600" height="338" src="http://docs.google.com/gview?url=https://lbelzile.github.io/multi/diapos/MATH60602-diapos3.pdf&embedded=true" frameborder="0"></iframe>
+-->
+
+## Objectifs d'apprentissage
+
+- Pouvoir manipuler une base de données pour des variables explicatives qui varient dans le temps
+- Comprendre les avantages et inconvénients des extensions du modèle de Cox (stratification, risques non proportionnels)
+- Pouvoir correctement spécifier et interpréter un modèle à risques non proportionnels.
+
+

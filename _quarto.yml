@@ -1,0 +1,152 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!diapos/"
+  resources:
+    - "files/"
+    - "diapos/*.html"
+    - "diapos/*.pdf"
+    - "diapos/img/"
+    - "diapos/figures/"
+    - "diapos/libs/"
+    - "diapos/css/"
+    - "diapos/*_files/"
+    - "evaluations/*.pdf"
+
+
+# See https://quarto.org/docs/projects/code-execution.html#freeze
+execute:
+  freeze: auto  # Re-render only when source changes
+
+bibliography: files/bib/math60602.bib
+csl: files/bib/apa.csl
+
+toc-title: "Table des matières"
+website:
+  title: "Analyse multidimensionnelle appliquée"
+  site-url: "https://lbelzile.github.io/multi"
+  description: "Formation de base en traitement de données multidimensionnelles. Compréhension intuitive, interprétation et utilisation de plusieurs techniques statistiques à l'aide de logiciels appropriés."
+  navbar:
+    pinned: true
+    background: "$aquaf"
+    foreground: "$blanc"
+    right:
+      - text: "Contenu"
+        file: contenu/index.qmd
+      - text: "Exercices"
+        file: exercices/index.qmd
+      - text: "Notes"
+        href: "https://lbelzile.github.io/math60602"
+      - icon: inbox-fill
+        href: "https://lbelzile.github.io/hecmulti"
+        aria-label: Données
+
+  sidebar:
+    - title: "Contenu"
+      style: "docked"
+      search: false
+      contents:
+        - text: "Contenu"
+          file: contenu/index.qmd
+        - section: "Ressources"
+          contents:
+            - text: "Ressources **R**"
+              file: contenu/ressourcesR.qmd
+            - text: "Installer **R** et RStudio"
+              file: contenu/installation.qmd
+        - section: "Matériel pédagogique"
+          contents:
+            - text: "1: Introduction"
+              file: contenu/01-contenu.qmd
+            - text: "2: Programmation **R**"
+              file: contenu/02-contenu.qmd
+            - text: "3: Sélection de variables"
+              file: contenu/03-contenu.qmd
+            - text: "4: Sélection de variables"
+              file: contenu/04-contenu.qmd
+            - text: "5: Régression logistique"
+              file: contenu/05-contenu.qmd
+            - text: "6: Classification"
+              file: contenu/06-contenu.qmd
+            - text: "7: Régression multinomiale"
+              file: contenu/07-contenu.qmd
+            - evaluations/intra.qmd
+            - text: "8: Analyse de survie"
+              file: contenu/08-contenu.qmd
+            - text: "9: Analyse de survie"
+              file: contenu/09-contenu.qmd
+            - text: "10: Réduction de la dimension"
+              file: contenu/10-contenu.qmd
+            - text: "11: Analyse de regroupements"
+              file: contenu/11-contenu.qmd
+            - text: "12: Analyse de regroupements"
+              file: contenu/12-contenu.qmd
+            - evaluations/final.qmd
+    - title: "Exercices"
+      style: "docked"
+      search: false
+      foreground: "aquap"
+      contents:
+        - text: "Exercices"
+          file: exercices/index.qmd
+        - section: "Analyse exploratoire"
+          contents:
+           - text: "Exercice 1"
+             file: exercices/01-exercice.qmd
+           - text: "Solution 1"
+             file: exercices/01-solution.qmd
+        - section: "Sélection de variables"
+          contents:
+           - text: "Exercice 2"
+             file: exercices/02-exercice.qmd
+           - text: "Solutions 2"
+             file: exercices/02-solution.qmd
+        - section: "Régression logistique"
+          contents:
+           - text: "Exercice 3"
+             file: exercices/03-exercice.qmd
+           - text: "Solutions 3"
+             file: exercices/03-solution.qmd
+        - section: "Analyse de survie"
+          contents:
+           - text: "Exercice 4"
+             file: exercices/04-exercice.qmd
+           - text: "Solutions 4"
+             file: exercices/04-solution.qmd
+        - section: "Analyse factorielle"
+          contents:
+           - text: "Exercice 5"
+             file: exercices/05-exercice.qmd
+           - text: "Solutions 5"
+             file: exercices/05-solution.qmd
+        - section: "Analyse de regroupements"
+          contents:
+           - text: "Exercice 6"
+             file: exercices/06-exercice.qmd
+           - text: "Solutions 6"
+             file: exercices/06-solution.qmd
+
+  page-footer:
+    left: |
+      Contenu {{< fa brands creative-commons >}} {{< var course.copyright_year >}} par [Léo Belzile](https://lbelzile.bitbucket.io); canevas du site par [Dr. Andrew Heiss](https://www.andrewheiss.com/) sous [licence MIT](https://mit-license.org/) <br>
+      Tout le contenu du site (hors notes) est distribué sous licence {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Fabriqué avec {{< fa brands r-project >}} et [Quarto](https://quarto.org/)<br>
+      [Code source sur {{< fa brands github >}} GitHub]({{< var course.github >}})
+
+preview:
+  port: 6200
+  browser: true
+  watch-inputs: true
+  navigate: true
+
+format:
+  html:
+    theme:
+      - litera
+      - html/custom.scss
+    toc: true

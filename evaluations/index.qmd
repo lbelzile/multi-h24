@@ -1,0 +1,5 @@
+---
+title: "Évaluations"
+---
+
+Les onglets mènent à des examens intra et finaux de pratique.

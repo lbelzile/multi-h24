@@ -1,0 +1,24 @@
+author: Léo Belzile
+
+instructor:
+  name: Dr. Debbie Dupuis
+  name_no_title: Debbie Dupuis
+  email: debbie.dupuis@hec.ca
+  url: "https://www.hec.ca/profs/debbie.dupuis.html"
+  github: lbelzile
+  office: "4.848, Côte-Sainte-Catherine"
+  contact_policy: >
+  
+course:
+  number: "MATH 60602"
+  semester: "hiver 2024"
+  days: "lundi (J01)"
+  time: "8h30-11h30"
+  location: "Côte-Ste-Catherine, San José"
+  github: "https://www.github.com/lbelzile/multi"
+  copyright_year: "2022-2024"
+
+university:
+  name: "HEC Montréal"
+  url: "https://www.hec.ca"
+
