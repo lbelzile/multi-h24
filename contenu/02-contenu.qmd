@@ -102,5 +102,4 @@ youtube_list(slide_details, playlist_id)
 
 ## Ressources complémentaires
 
-- [Matériel de cours d'Aurélie Labbe](/files/Intro_R.zip)
 - Chapitres [2](https://r4ds.hadley.nz/data-visualize) et [4](https://r4ds.hadley.nz/data-transform) de [***R** for Data Science*](https://r4ds.hadley.nz/)

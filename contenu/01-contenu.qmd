@@ -13,7 +13,6 @@ title: "Introduction"
 ## Avant le cours
 
 - Se familiariser avec le [plan de cours](/syllabus), le [contenu des séances](/contenu/), le [forum en ligne](https://piazza.com/hec.ca/fall2023/math60602/home), les [exercices](/exercices) et les [devoirs](/evaluations/).
-- S'inscrire sur [Piazza](http://piazza.com/hec.ca/fall2023/math60602).
 
 
 ## Lectures
