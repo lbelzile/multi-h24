@@ -6,13 +6,13 @@ title: "Introduction"
 
 - Plan de cours et objectifs d'apprentissage
 - Survol du contenu du cours
-- Considérations éthiques: discussion de l'article [*How Companies Learn Your Secrets*](https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html), via [ZoneCours](https://zonecours2.hec.ca/access/content/group/MATH60602.A2023/NYT_How_companies_learn_your_secrets.pdf)
+- Considérations éthiques: discussion de l'article [*How Companies Learn Your Secrets*](https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html), via [ZoneCours](https://zonecours2.hec.ca/access/content/group/MATH60602.H2024/NYT_How_companies_learn_your_secrets.pdf)
 - Analyse exploratoire des données
 - Introduction aux données manquantes
 
 ## Avant le cours
 
-- Se familiariser avec le [plan de cours](/syllabus), le [contenu des séances](/contenu/), le [forum en ligne](https://piazza.com/hec.ca/fall2023/math60602/home), les [exercices](/exercices) et les [devoirs](/evaluations/).
+- Se familiariser avec le [plan de cours](/syllabus), le [contenu des séances](/contenu/) et les [exercices](/exercices).
 
 
 ## Lectures
